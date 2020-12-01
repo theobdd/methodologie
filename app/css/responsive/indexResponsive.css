@@ -1,0 +1,200 @@
+/* ------------- custom adjustments -------------- */
+
+@media only screen
+and (max-device-width: 2520px)
+and (-webkit-min-device-pixel-ratio: 1) {
+    main {
+        overflow-x: hidden;
+    }
+}
+/* ------LANDING SCREEN------ */
+
+@media (max-width: 970px) {
+    header h1 {
+        font-size: 7em;
+    }
+}
+@media (max-width: 885px) {
+    header h1 {
+        font-size: 5em;
+    }
+    .logo_gold_title {
+        height: 100px;
+    }
+}
+@media (max-width: 631px) {
+    header h1 {
+        font-size: 4em;
+    }
+    .logo_gold_title {
+        height: 75px;
+    }
+}
+@media (max-width: 515px) {
+    .under_wrapper {
+        flex-direction: column;
+    }
+    header h1 {
+        font-size: 4em;
+        margin: 0;
+    }
+    .logo_gold_title {
+        height: 120px;
+        margin: 0;
+    }
+}
+@media (max-width: 415px) {
+    header h1 {
+        font-size: 3em;
+    }
+}
+
+
+
+
+
+/* ------SECTION1------ */
+@media (max-width: 910px)
+and (-webkit-min-device-pixel-ratio: 1) {
+    .part_one, .part_two {
+        flex-direction: column;
+        justify-content: space-between !important;
+    }
+    .part_one img, .part_two img {
+        margin: 0;
+    }
+    .part_two .first_right{
+        order: 2;
+    }
+}
+@media (max-width: 495px)
+and (-webkit-min-device-pixel-ratio: 1) {
+    .part_one, .part_two {
+        padding: 30px;
+    }
+    .part_two {
+        margin: 0;
+    }
+    .first_left h1 {
+        font-size: 1em;
+    }
+    .first_right img, .first_left img {
+        height: 110px;
+    }
+
+}
+@media (max-width: 360px)
+and (-webkit-min-device-pixel-ratio: 1) {
+    .first_right img, .first_left img {
+        height: 100px;
+    }
+}
+@media (max-width: 321px)
+and (-webkit-min-device-pixel-ratio: 1) {
+    .first_right img, .first_left img {
+        height: 75px;
+    }
+    .paragraph_wrapper p {
+        font-size: .8em;
+    }
+}
+@media (max-height: 867px){
+    .part_one, .part_two {
+        flex-direction: row;
+        justify-content: center !important;
+    }
+    .first_right img, .first_left img {
+        height: 150px;
+    }
+}
+@media (max-height: 867px) and (max-width: 770px){
+
+    .part_one, .part_two {
+        flex-direction: row;
+        justify-content: center !important;
+    }
+    .part_one, .part_two {padding: 0 30px 0 30px;
+    }
+    .paragraph_wrapper p {
+        font-size: .7em;
+    }
+    .first_left h1 {
+        font-size: 0.8em;
+    }
+}
+@media (max-height: 867px) and (max-width: 395px){
+    .first_right img, .first_left img {
+        height: 100px;
+    }
+}
+@media (max-height: 867px) and (max-width: 515px){
+    .first_right img, .first_left img {
+        height: 65px;
+    }
+    .part_one, .part_two {
+        margin: 30px 0 30px 0;
+    }
+}
+@media (max-height: 867px) and (max-width: 345px){
+    .part_one, .part_two {
+        flex-direction: column;
+    }
+}
+/* ------SECTION2------ */
+
+@media (max-width: 640px)
+and (-webkit-min-device-pixel-ratio: 1) {
+    .sec2_wrapper p:first-child {
+        font-size: 1.1em;
+        width: 100vw;
+        padding: 0 30px 0 30px;
+    }
+    .sec2_wrapper p {
+        font-size: 1em;
+        width: 100vw;
+        padding: 30px;
+    }
+    .sec2_wrapper * {
+        margin: 0 30px 0 30px;
+    }
+    .right_stroke, .right_stroke_wrapper{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .left_stroke, .left_stroke_wrapper {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .btn_wrapper {
+        margin: 0;
+    }
+}
+
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+
+}
+
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3) {
+    .part_one, .part_two {
+        flex-direction: column;
+    }
+    .first_right img, .first_left img {
+        height: 165px;
+    }
+}
+
